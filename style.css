@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Comic Sans Ms",sans-serif;
+}
+
+body{
+    background-image: url(BGI\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding:12px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 22px 30px black;
+    text-align: center;
+    backdrop-filter: blur(35px);
+}
+
+form{
+    color: #fff;
+}
+
+form h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+form .input-box{
+  width: 100%;
+}
+
+form .sanjay{
+    width: 100%;
+    background-color:transparent;
+    border: none;
+    outline: none;
+    box-shadow:0 0 10px black;
+    padding: 10px;
+    color: #fff;
+    border-radius:8px;
+    font-size:17px;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: #fff;
+}
+
+form .check{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 12px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+.check p{
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+
+.check a{
+    color:rgb(60, 14, 226);
+    font-size: 14px;
+    font-weight: bold;
+    transition: .4s;
+    text-decoration: underline;
+}
+
+.check a:hover{
+    color:white;
+    scale: 1.1;
+}
+
+form .check .box{
+    display: flex;
+    align-items: center;
+    gap:3px;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+    padding:5px;
+    font-weight: bold;
+    color: #000;
+    background-color:yellowgreen;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0  0 10px black;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: .4s;
+}
+button:hover{
+    background-color: yellow;
+    color: #000;
+}
+
+form p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:13px;
+    font-weight: bold;
+}
+
+form p a{
+    color:yellowgreen;
+    text-decoration: underline;
+}
+
+.icon{
+    position: absolute;
+    margin-left:240px;
+    margin-top: -33px;
+}
